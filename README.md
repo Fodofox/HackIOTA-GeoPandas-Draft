@@ -6,6 +6,7 @@ Interactive properties would be achieved by additionally using Folium.
 
 GeoPandas is dependent on: 
 numpy; pandas (version 1.0 or later) - shapely (interface to GEOS; version 1.7 or later) - fiona (interface to GDAL; version 1.8 or later) - pyproj (interface to PROJ; version 2.6.1 or later) - packaging
+
 IMPORTANT: Testing discovered that shapely 1.7 and numpy 1.23 can cause issues when used together on these versions.
 
 Further, optional dependencies are:
